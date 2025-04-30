@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import Navbar from './components/navbar/navbar';
+import Carouselprinc from './components/carousel/carouselprinc';
+import BarraColores from './components/barracol/barracolores';
+import Swal from 'sweetalert2';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    Swal.fire({
+      title: 'Atención',
+      html: '<div style="font-size:16px">La página aún se encuentra en construcción<br><b>Colegio Santa Ana</b></div>',
+      icon: 'info',
+      confirmButtonText: 'OK',
+      confirmButtonColor: '#198754',
+      buttonsStyling: true,
+      allowOutsideClick: false,
+      allowEscapeKey: false,
+      allowEnterKey: true,
+      backdrop: true
+    });
+  }, []);
+
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Conocé nuestro proyecto
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Carouselprinc />
+      <BarraColores />
+      <Footer />
     </div>
   );
 }
