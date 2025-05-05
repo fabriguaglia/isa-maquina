@@ -16,8 +16,6 @@ function Footer() {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="contact-title">
-      </div>
       <div className="text-white text-center p-1 derechosreservados" style={{ backgroundColor: '#12442F !important' }} style={{color: '#fff !important' }}>
           Copyright © 2024 Instituto Santa Ana, todos los derechos reservados.
         </div>
