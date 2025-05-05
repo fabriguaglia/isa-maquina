@@ -2,6 +2,7 @@ import React from 'react'
 import Foto1 from "./image.png"
 import Foto2 from "./image 53.png"
 import Foto3 from "./image_1.png"
+import "./carousel.css"
 
 function Carouselprinc() {
   return (
@@ -17,7 +18,7 @@ function Carouselprinc() {
           <div className="carousel-caption text-center">
             <h5 className="d-none d-md-block">Conocé nuestro proyecto</h5>
             <p className="d-none d-md-block">Construimos una máquina que utilizando botellas genera filamento para el uso de la impresora 3D institucional</p>
-            <h6 className="d-block d-md-none">Conocé nuestro proyecto</h6>
+            <h6 className="d-block d-md-none fuente">Conocé nuestro proyecto</h6>
           </div>
         </div>
         <div className="carousel-item">
@@ -25,7 +26,7 @@ function Carouselprinc() {
           <div className="carousel-caption text-center">
             <h5 className="d-none d-md-block">Cómo surgió nuestra idea</h5>
             <p className="d-none d-md-block">Queremos concientizar al cuidado del medio ambiente, que tanto los alumnos de los distintos niveles de la institución puedan tomar como hábito diario el reciclaje.</p>
-            <h6 className="d-block d-md-none">Cómo surgió nuestra idea</h6>
+            <h6 className="d-block d-md-none fuente">Cómo surgió nuestra idea</h6>
           </div>
         </div>
         <div className="carousel-item">
@@ -33,7 +34,7 @@ function Carouselprinc() {
           <div className="carousel-caption text-center">
             <h5 className="d-none d-md-block">El paso a paso</h5>
             <p className="d-none d-md-block">Queremos concientizar al cuidado del medio ambiente, que tanto los alumnos de los</p>
-            <h6 className="d-block d-md-none">El paso a paso</h6>
+            <h6 className="d-block d-md-none fuente">El paso a paso</h6>
           </div>
         </div>
       </div>

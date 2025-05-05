@@ -5,26 +5,21 @@ function Footer() {
   return (
     <footer>
       <div className="contact-title">
-        <div className="footer-text">
-          Contacto
-        </div>
+      </div>
+      <div className="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/uJ4bcqrtGto"
+          title="Armado de la máquina recicladora de filamento | Instituto Santa Ana"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="contact-title">
       </div>
       <div className="contact-info">
         <div className="footer-content">
-          <div className="address-section">
-            <div>Dirección</div>
-            <hr className="separator" />
-            <div>
-              Comodoro Rivadavia 1385<br/>
-              General Pacheco | CP: 1617<br/>
-              Buenos Aires
-            </div>
-            <hr className="separator" />
-            <div>Teléfono</div>
-            <hr className="separator" />
-            <div>+54 11 4740 1994</div>
-            <div>+54 11 4740 5981</div>
-          </div>
           <div className="map-section">
             <iframe
               title="Map"
@@ -39,7 +34,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-success text-white text-center p-1 derechosreservados" style={{color: '#fff !important' }}>
+      <div className="text-white text-center p-1 derechosreservados" style={{ backgroundColor: '#12442F !important' }} style={{color: '#fff !important' }}>
           Copyright © 2024 Instituto Santa Ana, todos los derechos reservados.
         </div>
     </footer>

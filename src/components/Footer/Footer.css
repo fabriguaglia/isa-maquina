@@ -3,7 +3,7 @@ footer {
 }
 
 .contact-title {
-  background-color: #334779;
+  background-color: #12442F;
   color: #ffffff;
   padding: 5px 0;
 }
@@ -33,7 +33,11 @@ footer {
 }
 
 .derechosreservados {
-  background-color: #334779 !important;
+  background-color: #12442F !important;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .address-section,
@@ -131,4 +135,22 @@ footer {
   .additional-section-right {
     margin-top: 20px; /* Espacio entre la parte izquierda y la derecha */
   }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
