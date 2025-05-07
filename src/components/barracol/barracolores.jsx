@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "./image.png";
-import Image1 from "./a078967b-7075-4ff8-a2b1-383a0e69ddbc 2.png";
+import Image1 from "./imaaage.png";
 import Image2 from "./image_1.png";
 import Image3 from "./image_2.png";
 import Image4 from "./image_3.png";
@@ -8,6 +8,14 @@ import Image5 from "./image_4.png";
 import Image6 from "./image_5.png";
 import Image7 from "./image_6.png";
 import Image8 from "./imaaage.png";
+import Image9 from "./image7.png";
+import Image10 from "./image8.jpg";
+import Image11 from "./image9.jpg";
+import Image12 from "./image10.jpg";
+import Image13 from "./image11.jpg";
+import Image14 from "./image12.png";
+import Image15 from "./image13.jpg"
+
 import "./barra.css"
 
 function BarraColores() {
@@ -37,6 +45,7 @@ function BarraColores() {
                     <div className="carousel-indicators">
                       <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
                       <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1" aria-label="Slide 2" />
+                      <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2" aria-label="Slide 3" />
                     </div>
                     <div className="carousel-inner">
                       <div className="carousel-item active">
@@ -44,6 +53,9 @@ function BarraColores() {
                       </div>
                       <div className="carousel-item">
                         <img src={Image2} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={Image13} className="d-block w-100 rounded-start" alt="..." />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
@@ -90,28 +102,48 @@ function BarraColores() {
             <div className="card mb-3">
               <div className="row g-0">
                 <div className="col-md-4">
-                  <div id="carouselPaso" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
-                      <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="1" aria-label="Slide 2" />
-                    </div>
-                    <div className="carousel-inner">
-                      <div className="carousel-item active">
-                        <img src={Image} className="d-block w-100 rounded-start" alt="..." />
-                      </div>
-                      <div className="carousel-item">
-                        <img src={Image3} className="d-block w-100 rounded-start" alt="..." />
-                      </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselPaso" data-bs-slide="prev">
-                      <span className="carousel-control-prev-icon" aria-hidden="true" />
-                      <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselPaso" data-bs-slide="next">
-                      <span className="carousel-control-next-icon" aria-hidden="true" />
-                      <span className="visually-hidden">Next</span>
-                    </button>
+                <div id="carouselPaso" className="carousel slide" data-bs-ride="carousel">
+                  <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="1" aria-label="Slide 2" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="2" aria-label="Slide 3" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="3" aria-label="Slide 4" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="4" aria-label="Slide 5" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="5" aria-label="Slide 6" />
+                    <button type="button" data-bs-target="#carouselPaso" data-bs-slide-to="6" aria-label="Slide 7" />
                   </div>
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <img src={Image} className="d-block w-100 rounded-start" alt="Paso 1" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image3} className="d-block w-100 rounded-start" alt="Paso 2" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image4} className="d-block w-100 rounded-start" alt="Paso 3" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image10} className="d-block w-100 rounded-start" alt="Paso 4" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image11} className="d-block w-100 rounded-start" alt="Paso 5" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image12} className="d-block w-100 rounded-start" alt="Paso 6" />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Image15} className="d-block w-100 rounded-start" alt="Paso 6" />
+                    </div>
+                  </div>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselPaso" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true" />
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselPaso" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true" />
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -157,7 +189,7 @@ function BarraColores() {
                         <img src={Image5} className="d-block w-100 rounded-start" alt="..." />
                       </div>
                       <div className="carousel-item">
-                        <img src={Image1} className="d-block w-100 rounded-start" alt="..." />
+                        <img src={Image9} className="d-block w-100 rounded-start" alt="..." />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExpo" data-bs-slide="prev">
@@ -208,6 +240,7 @@ function BarraColores() {
                     <div className="carousel-indicators">
                       <button type="button" data-bs-target="#carouselFuturo" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
                       <button type="button" data-bs-target="#carouselFuturo" data-bs-slide-to="1" aria-label="Slide 2" />
+                      <button type="button" data-bs-target="#carouselFuturo" data-bs-slide-to="2" aria-label="Slide 3" />
                     </div>
                     <div className="carousel-inner">
                       <div className="carousel-item active">
@@ -215,6 +248,9 @@ function BarraColores() {
                       </div>
                       <div className="carousel-item">
                         <img src={Image7} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={Image14} className="d-block w-100 rounded-start" alt="..." />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselFuturo" data-bs-slide="prev">

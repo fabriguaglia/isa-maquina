@@ -1,6 +1,6 @@
 import React from 'react'
 import Foto1 from "./image.png"
-import Foto2 from "./image 53.png"
+import Foto2 from "./image13.jpg"
 import Foto3 from "./image_1.png"
 import "./carousel.css"
 
