@@ -39,7 +39,7 @@ export default function Navbar() {
         />
         <div className="text-start lh-sm">
           <span className="fs-6 text-wrap text-break fuente">
-            Máquina recicladora<br />de filamento
+            PlastiCycle 3D
           </span>
         </div>
       </a>

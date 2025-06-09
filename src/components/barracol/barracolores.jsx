@@ -267,7 +267,7 @@ function BarraColores() {
                   <div className="card-body">
                     <h5 className="card-title fuente">Que proponemos mejorar</h5>
                     <p className="card-text fuentesec" style={{ textAlign: 'justify' }}>
-                      En continuidad con el proyecto destinado a transformar botellas de plástico recicladas en filamento para impresoras 3D, se propone una mejora técnica significativa: la incorporación de una placa Arduino para el control automatizado del motor y la temperatura de la extrusora. Esta mejora busca optimizar el funcionamiento del dispositivo, aumentar la eficiencia en la producción del filamento y garantizar una temperatura constante y adecuada para la correcta extrusión del PET.
+                      En continuidad con el proyecto, se propone una mejora técnica significativa: la incorporación de una placa Arduino para el control automatizado del motor y la temperatura de la extrusora. Esta mejora busca optimizar el funcionamiento del dispositivo, aumentar la eficiencia en la producción del filamento y garantizar una temperatura constante y adecuada para la correcta extrusión del PET.
                     </p>
                   </div>
                 </div>

@@ -25,7 +25,7 @@ function Carouselprinc() {
           <img src={Foto2} className="d-block w-100" alt="..." />
           <div className="carousel-caption text-center">
             <h5 className="d-none d-md-block">Cómo surgió nuestra idea</h5>
-            <p className="d-none d-md-block">Queremos concientizar al cuidado del medio ambiente, que tanto los alumnos de los distintos niveles de la institución puedan tomar como hábito diario el reciclaje.</p>
+            <p className="d-none d-md-block">Queremos concientizar al cuidado del medio ambiente, que tanto los alumnos de los distintos niveles de la institución puedan tomar como hábito diario el reciclaje</p>
             <h6 className="d-block d-md-none fuente">Cómo surgió nuestra idea</h6>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Carouselprinc() {
           <img src={Foto3} className="d-block w-100" alt="..." />
           <div className="carousel-caption text-center">
             <h5 className="d-none d-md-block">El paso a paso</h5>
-            <p className="d-none d-md-block">Queremos concientizar al cuidado del medio ambiente, que tanto los alumnos de los</p>
+            <p className="d-none d-md-block">Documentamos cada etapa del armado: desde el diseño hasta el ensamblaje final de nuestra máquina recicladora</p>
             <h6 className="d-block d-md-none fuente">El paso a paso</h6>
           </div>
         </div>
