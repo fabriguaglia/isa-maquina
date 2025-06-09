@@ -37,10 +37,8 @@ export default function Navbar() {
           width="60"
           className="d-inline-block align-text-top me-2 ms-2"
         />
-        <div className="text-start lh-sm">
-          <span className="fs-6 text-wrap text-break fuente">
+        <div className="text-start lh-sm fs-6 text-wrap text-break fuente">
             PlastiCycle 3D
-          </span>
         </div>
       </a>
         </div>
