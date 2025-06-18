@@ -15,6 +15,7 @@ import Image12 from "./image10.jpg";
 import Image13 from "./image11.jpg";
 import Image14 from "./image12.png";
 import Image15 from "./image13.jpg"
+import Image16 from "./imagenexpo.jpeg";
 
 import "./barra.css"
 
@@ -183,6 +184,7 @@ function BarraColores() {
                     <div className="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExpo" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
                       <button type="button" data-bs-target="#carouselExpo" data-bs-slide-to="1" aria-label="Slide 2" />
+                      <button type="button" data-bs-target="#carouselExpo" data-bs-slide-to="2" aria-label="Slide 3" />
                     </div>
                     <div className="carousel-inner">
                       <div className="carousel-item active">
@@ -190,6 +192,9 @@ function BarraColores() {
                       </div>
                       <div className="carousel-item">
                         <img src={Image9} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={Image16} className="d-block w-100 rounded-start" alt="..." />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExpo" data-bs-slide="prev">
