@@ -16,6 +16,11 @@ import Image13 from "./image11.jpg";
 import Image14 from "./image12.png";
 import Image15 from "./image13.jpg"
 import Image16 from "./imagenexpo.jpeg";
+import ImageAnim from "./imageanim.jpeg"
+import ImageAnim1 from "./imageanim1.jpeg"
+import FotosCom from "./fotoscom.jpg";
+import FotosCom1 from "./fotoscom1.jpeg";
+import ImageProt from "./imageprot.jpg";
 
 import "./barra.css"
 
@@ -273,6 +278,124 @@ function BarraColores() {
                     <h5 className="card-title fuente">Que proponemos mejorar</h5>
                     <p className="card-text fuentesec" style={{ textAlign: 'justify' }}>
                       En continuidad con el proyecto, se propone una mejora técnica significativa: la incorporación de una placa Arduino para el control automatizado del motor y la temperatura de la extrusora. Esta mejora busca optimizar el funcionamiento del dispositivo, aumentar la eficiencia en la producción del filamento y garantizar una temperatura constante y adecuada para la correcta extrusión del PET.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Sección "Resultados" */}
+      <div>
+        <p className="text-center">
+          <button
+            className="mt-2 btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseRes"
+            aria-expanded="false"
+            aria-controls="collapseRes"
+          >
+            <p className="mb-0 fs-2 fuente">Resultados</p>
+          </button>
+          <hr className="divisor" />
+        </p>
+        <div className="collapse" id="collapseRes">
+          <div className="card card-body">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <div id="carouselRes" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRes" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
+                      <button type="button" data-bs-target="#carouselRes" data-bs-slide-to="1" aria-label="Slide 2" />
+                    </div>
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <img src={ImageAnim} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={ImageAnim1} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselRes" data-bs-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true" />
+                      <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselRes" data-bs-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true" />
+                      <span className="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title fuente">Resultados de impresión y calidad del filamento obtenido</h5>
+                    <p className="card-text fuentesec" style={{ textAlign: 'justify' }}>
+                      Tras la puesta en marcha de la máquina, se realizaron pruebas de producción de filamento utilizando botellas de plástico PET recicladas. El material extruido presentó un diámetro uniforme y una textura adecuada para su uso en impresoras 3D domésticas. Con este filamento, se imprimieron diversas piezas de prueba, verificando su resistencia mecánica y acabado superficial. Los resultados demostraron que el sistema es capaz de generar un producto funcional, con un rendimiento comparable al de filamentos comerciales, pero con el valor agregado de su origen reciclado y su bajo costo de producción.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Sección "Comunidad" */}
+      <div>
+        <p className="text-center">
+          <button
+            className="mt-2 btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseCom"
+            aria-expanded="false"
+            aria-controls="collapseCom"
+          >
+            <p className="mb-0 fs-2 fuente">Comunidad</p>
+          </button>
+          <hr className="divisor" />
+        </p>
+        <div className="collapse" id="collapseCom">
+          <div className="card card-body">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <div id="carouselCom" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselCom" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" />
+                      <button type="button" data-bs-target="#carouselCom" data-bs-slide-to="1" aria-label="Slide 2" />
+                      <button type="button" data-bs-target="#carouselCom" data-bs-slide-to="2" aria-label="Slide 3" />
+                    </div>
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <img src={FotosCom1} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={FotosCom} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                      <div className="carousel-item">
+                        <img src={ImageProt} className="d-block w-100 rounded-start" alt="..." />
+                      </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselCom" data-bs-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true" />
+                      <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselCom" data-bs-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true" />
+                      <span className="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title fuente">Participación comunitaria y proyección social</h5>
+                    <p className="card-text fuentesec" style={{ textAlign: 'justify' }}>
+                      Como parte del impacto social del proyecto, se realizaron presentaciones a estudiantes de grados inferiores de la institución, mostrando el filamento reciclado y explicando el proceso de su fabricación. Estas actividades buscaron despertar el interés por el cuidado del medio ambiente y la tecnología, motivando a los más jóvenes a participar en iniciativas de reciclaje. <br/>Además, se exploró la posibilidad de utilizar el filamento producido para la impresión de prótesis de bajo costo, destinadas a quienes las necesiten. Este enfoque abre la puerta a un uso solidario y de gran valor social, uniendo innovación tecnológica con compromiso comunitario.
                     </p>
                   </div>
                 </div>
