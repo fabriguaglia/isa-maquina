@@ -1,12 +1,11 @@
 # PlastiCycle 3D 🔄♻️
-![PlastiCycle 3D]("./logo512.png")
+![PlastiCycle 3D](https://isa-maquina.vercel.app/static/media/logomaquina.c58cf741e405bdc266f9.png)
 **Transformando residuos plásticos en filamento 3D de calidad**
 
-![PlastiCycle 3D Hero](https://via.placeholder.com/800x300/2E8B57/FFFFFF?text=PlastiCycle+3D+-+Extrusora+de+Filamento+Reciclado)
+![PlastiCycle 3D Hero](https://isa-maquina.vercel.app/static/media/image.6754c39469ccd7065157.png)
 
 ![PlastiCycle 3D](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
-![Tecnología](https://img.shields.io/badge/Tecnolog%C3%ADa-Arduino%20%7C%20Impresión%203D-green)
+![Tecnología](https://img.shields.io/badge/Tecnolog%C3%ADa-Electrónica%20%7C%20Impresión%203D-green)
 
 ---
 
